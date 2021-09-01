@@ -1,0 +1,2528 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varzesh times</title>
+
+    <link rel="stylesheet" href="./assets/fonts/vazir-ui/vazir.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/material-icons/material-icons.css"
+    />
+    <link rel="stylesheet" href="./assets/css/splide.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="vt-theme-cyan-light">
+    <div class="container-xxl">
+      <header class="mb-4">
+        <nav class="preheader-navbar navbar navbar-expand navbar-dark">
+          <div class="row preheader-navbar-row">
+            <div class="col-9 col-lg-6 preheader-navbar-col">
+              <ul class="navbar-nav button-type">
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button
+                      class="btn vt-btn-tit dropdown-toggle"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="user-avatar">
+                        <img src="./assets/images/user.jpg" alt="user avatar" />
+                      </span>
+                      <span>حسین کریمی راد</span>
+                    </button>
+
+                    <ul
+                      class="dropdown-menu dropdown-menu-end"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <span class="material-icons"> person </span>
+                          <span>پروفایل</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <span class="material-icons"> settings </span>
+                          <span>تنظیمات</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <span class="material-icons"> post_add </span>
+                          <span>ایجاد پست جدید</span>
+                        </a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <span class="material-icons"> exit_to_app </span>
+                          <span>خروج</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-3 preheader-navbar-col d-block d-lg-none">
+              <ul class="navbar-nav button-type justify-content-end">
+                <li class="nav-item">
+                  <button class="btn vt-btn-tit" id="mobileMenuCaller">
+                    <span class="material-icons text-accent"> menu </span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 preheader-navbar-col d-none d-lg-block">
+              <ul class="navbar-nav justify-content-end">
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert">تبلیغات</button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert">
+                    اخبار زنده
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert">
+                    ارتباط با ما
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert">
+                    درباره ما
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <section class="header">
+          <section class="header-main">
+            <div class="header-main-actions">
+              <button class="btn vt-btn-white">سفارش تبلیغات</button>
+            </div>
+
+            <div class="search-container">
+              <input
+                class="form-control is-white"
+                type="text"
+                placeholder="جستجو اخبار، تیم ها، بازیکنان و ویدیو های ورزشی ..."
+              />
+              <button class="btn vt-btv-primary">
+                <span class="material-icons text-body-invert"> search </span>
+              </button>
+            </div>
+
+            <div class="logo-wrap">
+              <img src="./assets/images/logo.png" alt="site's logo" />
+            </div>
+          </section>
+          <nav class="subheader-navbar navbar navbar-expand-lg navbar-dark">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert active">
+                    صفحه اصلی
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert">
+                    اخبار داخلی
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert">
+                    اخبار خارجی
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert">
+                    تحلیل فوتبالی
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert">
+                    غیر فوتبالی
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert">
+                    جداول لیگ
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert">
+                    ویدیو ها
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn vt-btn-transparent-invert">
+                    دانشنامه
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </section>
+      </header>
+
+      <main class="mb-4">
+        <div class="row">
+          <div class="col-12 col-lg-2 ads-column item-column">
+            <div class="col-ads">
+              <img
+                class="col-ad"
+                src="./assets/images/ads/cols/00911970.gif"
+                alt="site ad"
+              />
+            </div>
+            <div class="col-ads">
+              <img
+                class="col-ad"
+                src="./assets/images/ads/cols/00911861.gif"
+                alt="site ad"
+              />
+            </div>
+            <div class="col-ads">
+              <img
+                class="col-ad"
+                src="./assets/images/ads/cols/00911969.gif"
+                alt="site ad"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 flex-grow-1">
+            <div class="card vt-news-card breadcrumb-card mb-3">
+              <div class="card-body">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">صفحه اصلی</a></li>
+                    <li class="breadcrumb-item"><a href="#">اخبار ورزشی</a></li>
+                    <li class="breadcrumb-item"><a href="#">المپیک</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                      شما اینجا هستید
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+            <div class="card vt-news-card archive-card">
+              <div class="card-header header-alt">
+                <p class="h4 text-primary">آخرین تحلیل ورزشی</p>
+                <div class="vt-divider"><span></span></div>
+              </div>
+              <div class="card-body">
+                <div class="card-body-inner">
+                  <div class="row gy-3 news-item-row">
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="news-row-item">
+                        <div class="row gx-2">
+                          <div class="col-4">
+                            <div
+                              class="news-row-item-thumb ratio ratio-1x1"
+                              style="
+                                background-image: url(./assets/images/news/149606.jpg);
+                              "
+                            ></div>
+                          </div>
+                          <div class="col-8">
+                            <p class="news-row-item-title">
+                              تحلیل بازی پرسپولیس و سپاهان در هفته سوم لیگ برتر
+                            </p>
+                            <a
+                              class="news-row-item-link stretched-link"
+                              href="#"
+                              >تحلیل بازی لیگ برتر</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 lazyload-body">
+                      <div
+                        class="lazyload-trigger"
+                        component-type="ARCHIVE_POST"
+                      ></div>
+                      <div class="lazyload-loader">
+                        <span class="material-icons text-primary">
+                          autorenew
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 flex-grow-1 item-column">
+            <div class="splide splide-auto">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="slider-item">
+                      <div class="slider--media ratio-3-4">
+                        <img
+                          width="200"
+                          height="144"
+                          title="روزنامه خبر ورزشی"
+                          alt="روزنامه خبر ورزشی ﺳﻪشنبه 29 تير 1400"
+                          src="https://static.farakav.com/files/newspapers/varzesh3/200_KhabarVarzeshi-1400-04-29_1626725788.jpg"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span class="slider--caption-title">خبر ورزشی</span>
+                        <span class="slider--caption-date"
+                          >ﺳﻪشنبه 29 تير 1400</span
+                        >
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="slider-item">
+                      <div class="slider--media ratio-3-4">
+                        <img
+                          width="200"
+                          height="144"
+                          title="روزنامه گل"
+                          alt="روزنامه گل ﺳﻪشنبه 29 تير 1400"
+                          src="https://static.farakav.com/files/newspapers/varzesh3/200_Goal-1400-04-29_1626724075.jpg"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span class="slider--caption-title">گل</span>
+                        <span class="slider--caption-date"
+                          >ﺳﻪشنبه 29 تير 1400</span
+                        >
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="slider-item">
+                      <div class="slider--media ratio-3-4">
+                        <img
+                          width="200"
+                          height="144"
+                          title="روزنامه ابرار ورزشی"
+                          alt="روزنامه ابرار ورزشی ﺳﻪشنبه 29 تير 1400"
+                          src="https://static.farakav.com/files/newspapers/varzesh3/200_AbrarVarzeshi-1400-04-29_1626725807.jpg"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span class="slider--caption-title">ابرار ورزشی</span>
+                        <span class="slider--caption-date"
+                          >ﺳﻪشنبه 29 تير 1400</span
+                        >
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="slider-item">
+                      <div class="slider--media ratio-3-4">
+                        <img
+                          width="200"
+                          height="144"
+                          title="روزنامه ایران ورزشی"
+                          alt="روزنامه ایران ورزشی ﺳﻪشنبه 29 تير 1400"
+                          src="https://static.farakav.com/files/newspapers/varzesh3/200_IranVarzeshi-1400-04-29_1626725949.jpg"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span class="slider--caption-title">ایران ورزشی</span>
+                        <span class="slider--caption-date"
+                          >ﺳﻪشنبه 29 تير 1400</span
+                        >
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="slider-item">
+                      <div class="slider--media ratio-3-4">
+                        <img
+                          width="200"
+                          height="144"
+                          title="روزنامه استقلال"
+                          alt="روزنامه استقلال ﺳﻪشنبه 29 تير 1400"
+                          src="https://static.farakav.com/files/newspapers/varzesh3/200_Esteghlal-1400-04-29_1626724110.jpg"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span class="slider--caption-title">استقلال</span>
+                        <span class="slider--caption-date"
+                          >ﺳﻪشنبه 29 تير 1400</span
+                        >
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="slider-item">
+                      <div class="slider--media ratio-3-4">
+                        <img
+                          width="200"
+                          height="144"
+                          title="روزنامه پرسپولیس"
+                          alt="روزنامه پرسپولیس ﺳﻪشنبه 29 تير 1400"
+                          src="https://static.farakav.com/files/newspapers/varzesh3/200_Perspolis-1400-04-29_1626724147.jpg"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span class="slider--caption-title">پرسپولیس</span>
+                        <span class="slider--caption-date"
+                          >ﺳﻪشنبه 29 تير 1400</span
+                        >
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="slider-item">
+                      <div class="slider--media ratio-3-4">
+                        <img
+                          width="200"
+                          height="144"
+                          title="روزنامه شوت"
+                          alt="روزنامه شوت ﺳﻪشنبه 29 تير 1400"
+                          src="https://static.farakav.com/files/newspapers/varzesh3/200_shoot-1400-04-29_1626725967.jpg"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span class="slider--caption-title">شوت</span>
+                        <span class="slider--caption-date"
+                          >ﺳﻪشنبه 29 تير 1400</span
+                        >
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="slider-item">
+                      <div class="slider--media ratio-3-4">
+                        <img
+                          width="200"
+                          height="144"
+                          title="روزنامه شهرآرا"
+                          alt="روزنامه شهرآرا ﺳﻪشنبه 29 تير 1400"
+                          src="https://static.farakav.com/files/newspapers/varzesh3/200_shahraranews-1400-04-29_1626725985.jpg"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span class="slider--caption-title">شهرآرا</span>
+                        <span class="slider--caption-date"
+                          >ﺳﻪشنبه 29 تير 1400</span
+                        >
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="splide__progress">
+                <div class="splide__progress__bar"></div>
+              </div>
+            </div>
+
+            <div class="card vt-news-card">
+              <div class="card-header">
+                <ul class="nav" id="hotties" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link active"
+                      id="latest-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#latest"
+                      type="button"
+                      role="tab"
+                      aria-controls="latest"
+                      aria-selected="true"
+                    >
+                      اخرین اخبار
+                    </a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="conv-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#conv"
+                      type="button"
+                      role="tab"
+                      aria-controls="conv"
+                      aria-selected="false"
+                    >
+                      پربحث
+                    </a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="hot-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#hot"
+                      type="button"
+                      role="tab"
+                      aria-controls="hot"
+                      aria-selected="false"
+                    >
+                      پربازدید
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <div class="card-body-inner">
+                  <div class="tab-content" id="hottiesContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="latest"
+                      role="tabpanel"
+                      aria-labelledby="latest-tab"
+                    >
+                      <ul class="news-list">
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1933637">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ مجید نامجومطلق
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1932954">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            جدول پرفروش ترین بازی های هفته بریتانیا؛ بازگشت 3
+                            بازی پرطرفدار به جدول/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1932928">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            بازی For Honor در لیست بازی های ایکس باکس گیم پس
+                            برای ماه ژوئن قرار گرفت/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1930312">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ فرانسه با حضور کیلیان ام باپه و
+                            نیمار منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1929093">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            آخرین تیم منتخب هفته فیفا 21 با حضور سادیو مانه،
+                            لوکا مودریچ و لوییس سوارز منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1928959"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ رحمان رضایی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1928299"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            انتشار چالش تیمو ورنر و کایل واکر به مناسبت دیدار
+                            چلسی و منچسترسیتی / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1927600"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت جدید مروان فلینی با ریتینگ 91 منتشر شد / فیفا
+                            21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1927477">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ اردیویسه هلند با حضور تادیچ و مالن
+                            منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1927467">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب سال سوپر لیگ چین منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1925441">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            ابجکتیو کارت منتخب فصل بارلا منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1924872"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل سری آ با حضور کریستیانو رونالدو با
+                            ریتینگ 98 منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1924294"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ فرشاد پیوس
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1922448"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            بی سلیقگی بزرگ EA اسپورتس؛ عرضه تیم منتخب فصل لیگ
+                            پرتغال بدون طارمی! / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1920271">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل بوندسلیگا با حضور لواندوفسکیِ 98 و
+                            سانچوی 96 عرضه شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1920166">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت بازیکن ماه جسی لینگارد با ریتینگ 87 منتشر شد /
+                            فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1919613">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت جدید تیبو کورتوا با ریتینگ 94 منتشر شد / فیفا
+                            21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1919525"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ حسن روشن
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1918514">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت فلشبک جرارد پیکه با ریتینگ 96 منتشر شد / فیفا
+                            21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1917729">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            چالش کارت آیکان رائول گونزالس، اریک کانتونا و مارسل
+                            دسایی منتشر شد / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1915666">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            چالش فلشبک مارسلو عرضه شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1915643">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لالیگا با حضور لیونل مسی 98 و کریم
+                            بنزما 97 عرضه شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1914894"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ یحیی گل محمدی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1913119"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ عربستان منتشر شد؛ کارت جدید بانگا
+                            با ریتینگ 91 / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1912788">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            پیش فروش پلی استیشن 5 در چین طی 20 دقیقه تمام شد/
+                            بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1910147"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ برتر انگلیس منتشر شد؛ حضور برونو
+                            فرناندز، دی بروین، کین و صلاح با ریتینگ 96 / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1910132">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ ایرج دانایی فرد
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1909671">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب هفته سی و یکم با حضور آنتوان گریزمان و
+                            کیمپمبه منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="video" target="_blank" href="/node/1909258">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیزر همکاری کونامی و باشگاه ناپولی برای بازی PES
+                            2022 / ویدیو
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1908727"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            اسکین نیمار به بازی فورتنایت اضافه شد / بازی و
+                            سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1906558">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            علی عباسی کارگردان ایرانی به تیم کارگردانی سریال The
+                            Last Of Us پیوست/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1906541">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل فیفا 21 با حضور آلابا، والورده و آرون
+                            ون بیساکا منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1904527"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ عزیز اصلی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1902502"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            باشگاه های سوپرلیگی از فیفا 22 حذف می شوند؛ فرصت
+                            طلایی برای کونامی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1901432">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            چالش کارت آیکان کنی دالگلیش، الساندرو دل پیرو و
+                            مایکل اسین منتشر شد / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1900194">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رای گیری برای انتخاب تیم منتخب سال فیفا 21 آغاز شد/
+                            بازی و سرگرمی
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="conv"
+                      role="tabpanel"
+                      aria-labelledby="conv-tab"
+                    >
+                      <ul class="news-list">
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1934968"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم ورزش های الکترونیک یوونتوس قهرمان رشته PES 2021
+                            قاره اروپا شد
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1933637">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ مجید نامجومطلق
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1932954">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            جدول پرفروش ترین بازی های هفته بریتانیا؛ بازگشت 3
+                            بازی پرطرفدار به جدول/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1932928">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            بازی For Honor در لیست بازی های ایکس باکس گیم پس
+                            برای ماه ژوئن قرار گرفت/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1930312">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ فرانسه با حضور کیلیان ام باپه و
+                            نیمار منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1929093">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            آخرین تیم منتخب هفته فیفا 21 با حضور سادیو مانه،
+                            لوکا مودریچ و لوییس سوارز منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1928959"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ رحمان رضایی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1928299"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            انتشار چالش تیمو ورنر و کایل واکر به مناسبت دیدار
+                            چلسی و منچسترسیتی / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1927600"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت جدید مروان فلینی با ریتینگ 91 منتشر شد / فیفا
+                            21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1927477">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ اردیویسه هلند با حضور تادیچ و مالن
+                            منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1927467">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب سال سوپر لیگ چین منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1925441">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            ابجکتیو کارت منتخب فصل بارلا منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1924872"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل سری آ با حضور کریستیانو رونالدو با
+                            ریتینگ 98 منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1924294"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ فرشاد پیوس
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1922448"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            بی سلیقگی بزرگ EA اسپورتس؛ عرضه تیم منتخب فصل لیگ
+                            پرتغال بدون طارمی! / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1920271">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل بوندسلیگا با حضور لواندوفسکیِ 98 و
+                            سانچوی 96 عرضه شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1920166">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت بازیکن ماه جسی لینگارد با ریتینگ 87 منتشر شد /
+                            فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1919613">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت جدید تیبو کورتوا با ریتینگ 94 منتشر شد / فیفا
+                            21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1919525"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ حسن روشن
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1918514">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت فلشبک جرارد پیکه با ریتینگ 96 منتشر شد / فیفا
+                            21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1917729">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            چالش کارت آیکان رائول گونزالس، اریک کانتونا و مارسل
+                            دسایی منتشر شد / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1915666">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            چالش فلشبک مارسلو عرضه شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1915643">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لالیگا با حضور لیونل مسی 98 و کریم
+                            بنزما 97 عرضه شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1914894"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ یحیی گل محمدی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1913119"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ عربستان منتشر شد؛ کارت جدید بانگا
+                            با ریتینگ 91 / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1912788">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            پیش فروش پلی استیشن 5 در چین طی 20 دقیقه تمام شد/
+                            بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1910147"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ برتر انگلیس منتشر شد؛ حضور برونو
+                            فرناندز، دی بروین، کین و صلاح با ریتینگ 96 / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1910132">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ ایرج دانایی فرد
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1909671">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب هفته سی و یکم با حضور آنتوان گریزمان و
+                            کیمپمبه منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="video" target="_blank" href="/node/1909258">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیزر همکاری کونامی و باشگاه ناپولی برای بازی PES
+                            2022 / ویدیو
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1908727"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            اسکین نیمار به بازی فورتنایت اضافه شد / بازی و
+                            سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1906558">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            علی عباسی کارگردان ایرانی به تیم کارگردانی سریال The
+                            Last Of Us پیوست/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1906541">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل فیفا 21 با حضور آلابا، والورده و آرون
+                            ون بیساکا منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1904527"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ عزیز اصلی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1902502"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            باشگاه های سوپرلیگی از فیفا 22 حذف می شوند؛ فرصت
+                            طلایی برای کونامی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1901432">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            چالش کارت آیکان کنی دالگلیش، الساندرو دل پیرو و
+                            مایکل اسین منتشر شد / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1900194">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رای گیری برای انتخاب تیم منتخب سال فیفا 21 آغاز شد/
+                            بازی و سرگرمی
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="hot"
+                      role="tabpanel"
+                      aria-labelledby="hot-tab"
+                    >
+                      <ul class="news-list">
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1958293">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            پادشاه بسکتبال در فورتنایت؛ رونمایی اپیک گیمز از
+                            اسکین لبران جیمز! / بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1957346">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تاریخ عرضه و قیمت بازی FIFA 22 مشخص شد/ بازی و
+                            سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="video hot"
+                            target="_blank"
+                            href="/node/1956914"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            اولین تریلر رسمی بازی FIFA 22
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="video" target="_blank" href="/node/1955534">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            حضور کیلیان ام باپه در رونمایی رسمی EA اسپورتس از
+                            کاور فیفا 22 / فیلم
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1955485"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی رسمی EA اسپورتس از کاور فیفا 22؛ تصویر
+                            کیلیان ام باپه دوباره روی جلد اصلی قرار گرفت
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1954292"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            احتمال انتشار تریلر از سری جدید God of War در ماه
+                            آینده؛ دنیای بازی در انتظار بازگشت کریتوس / بازی و
+                            سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1951643">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            بسته خبری بازی و سرگرمی؛ از انتشار اولین تصویر سریال
+                            The Last Of Us تا اطلاعات جدید در مورد GTA 6
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1947464">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            بسته خبری بازی و سرگرمی؛ از رد پیشنهاد بازی در سریال
+                            Last Of Us توسط مک کانهی تا انتشار دموی بازی PES
+                            2022
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1947441">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            هکر ها با استفاده از سیستم گیمرها شروع به استخراج
+                            رمز ارز می کنند/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1946380"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            دموی بازی PES 2022 در دسترس قرار گرفت/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1945665">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رد پیشنهاد بازی در سریال The Last Of Us توسط متیو مک
+                            کانهی/بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1938575">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ محمد پنجعلی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1938257">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            حمله هکر ها به الکترونیک آرتز و سرقت 780 گیگابایت
+                            اطلاعات/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1934968"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم ورزش های الکترونیک یوونتوس قهرمان رشته PES 2021
+                            قاره اروپا شد
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1933637">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ مجید نامجومطلق
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1932954">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            جدول پرفروش ترین بازی های هفته بریتانیا؛ بازگشت 3
+                            بازی پرطرفدار به جدول/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1932928">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            بازی For Honor در لیست بازی های ایکس باکس گیم پس
+                            برای ماه ژوئن قرار گرفت/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1930312">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ فرانسه با حضور کیلیان ام باپه و
+                            نیمار منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1929093">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            آخرین تیم منتخب هفته فیفا 21 با حضور سادیو مانه،
+                            لوکا مودریچ و لوییس سوارز منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1928959"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ رحمان رضایی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1928299"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            انتشار چالش تیمو ورنر و کایل واکر به مناسبت دیدار
+                            چلسی و منچسترسیتی / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1927600"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت جدید مروان فلینی با ریتینگ 91 منتشر شد / فیفا
+                            21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1927477">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ اردیویسه هلند با حضور تادیچ و مالن
+                            منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1927467">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب سال سوپر لیگ چین منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1925441">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            ابجکتیو کارت منتخب فصل بارلا منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1924872"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل سری آ با حضور کریستیانو رونالدو با
+                            ریتینگ 98 منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1924294"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ فرشاد پیوس
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1922448"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            بی سلیقگی بزرگ EA اسپورتس؛ عرضه تیم منتخب فصل لیگ
+                            پرتغال بدون طارمی! / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1920271">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل بوندسلیگا با حضور لواندوفسکیِ 98 و
+                            سانچوی 96 عرضه شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1920166">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت بازیکن ماه جسی لینگارد با ریتینگ 87 منتشر شد /
+                            فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1919613">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت جدید تیبو کورتوا با ریتینگ 94 منتشر شد / فیفا
+                            21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1919525"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ حسن روشن
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1918514">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            کارت فلشبک جرارد پیکه با ریتینگ 96 منتشر شد / فیفا
+                            21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1917729">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            چالش کارت آیکان رائول گونزالس، اریک کانتونا و مارسل
+                            دسایی منتشر شد / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1915666">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            چالش فلشبک مارسلو عرضه شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1915643">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لالیگا با حضور لیونل مسی 98 و کریم
+                            بنزما 97 عرضه شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1914894"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ یحیی گل محمدی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1913119"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ عربستان منتشر شد؛ کارت جدید بانگا
+                            با ریتینگ 91 / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1912788">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            پیش فروش پلی استیشن 5 در چین طی 20 دقیقه تمام شد/
+                            بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1910147"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل لیگ برتر انگلیس منتشر شد؛ حضور برونو
+                            فرناندز، دی بروین، کین و صلاح با ریتینگ 96 / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1910132">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ ایرج دانایی فرد
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1909671">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب هفته سی و یکم با حضور آنتوان گریزمان و
+                            کیمپمبه منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="video" target="_blank" href="/node/1909258">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیزر همکاری کونامی و باشگاه ناپولی برای بازی PES
+                            2022 / ویدیو
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1908727"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            اسکین نیمار به بازی فورتنایت اضافه شد / بازی و
+                            سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1906558">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            علی عباسی کارگردان ایرانی به تیم کارگردانی سریال The
+                            Last Of Us پیوست/ بازی و سرگرمی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1906541">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            تیم منتخب فصل فیفا 21 با حضور آلابا، والورده و آرون
+                            ون بیساکا منتشر شد/ فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1904527"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رونمایی از کارت آیکان بهترین بازیکنان تاریخ فوتبال
+                            ایران؛ عزیز اصلی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a
+                            class="news hot"
+                            target="_blank"
+                            href="/node/1902502"
+                          >
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            باشگاه های سوپرلیگی از فیفا 22 حذف می شوند؛ فرصت
+                            طلایی برای کونامی
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1901432">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            چالش کارت آیکان کنی دالگلیش، الساندرو دل پیرو و
+                            مایکل اسین منتشر شد / فیفا 21
+                          </a>
+                        </li>
+                        <li class="news-item">
+                          <a class="news" target="_blank" href="/node/1900194">
+                            <span class="material-icons size-font text-primary">
+                              double_arrow
+                            </span>
+                            رای گیری برای انتخاب تیم منتخب سال فیفا 21 آغاز شد/
+                            بازی و سرگرمی
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="splide splide-auto">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="slider-item horizontal">
+                      <div class="slider--media ratio-9-16">
+                        <div class="video-datetime">
+                          <span
+                            class="
+                              material-icons
+                              text-body-invert
+                              size-font size-font-p1
+                            "
+                          >
+                            schedule
+                          </span>
+                          <span> 4 ساعت پیش </span>
+                        </div>
+                        <span class="material-icons text-primary play-icon">
+                          play_circle
+                        </span>
+                        <img
+                          width="240"
+                          height="160"
+                          src="https://video-images1.varzeshe3.com/covers/2021/07/20/A/3mi3m0fd.jpg?w=250"
+                          alt="میرقربانی: به صراحت تبانی را مشاهده کردم"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span>میرقربانی: به صراحت تبانی را مشاهده کردم</span>
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="slider-item horizontal">
+                      <div class="slider--media ratio-9-16">
+                        <div class="video-datetime">
+                          <span
+                            class="
+                              material-icons
+                              text-body-invert
+                              size-font size-font-p1
+                            "
+                          >
+                            schedule
+                          </span>
+                          <span> 4 ساعت پیش </span>
+                        </div>
+                        <span class="material-icons text-primary play-icon">
+                          play_circle
+                        </span>
+                        <img
+                          width="240"
+                          height="160"
+                          src="https://video-images1.varzeshe3.com/covers/2021/07/20/A/qgxtwnx1.jpg?w=250"
+                          alt="افشاگری عجیب قنواتی مدیر تیم شهرداری ماهشهر"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span>افشاگری عجیب قنواتی مدیر تیم شهرداری ماهشهر</span>
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="slider-item horizontal">
+                      <div class="slider--media ratio-9-16">
+                        <div class="video-datetime">
+                          <span
+                            class="
+                              material-icons
+                              text-body-invert
+                              size-font size-font-p1
+                            "
+                          >
+                            schedule
+                          </span>
+                          <span> 4 ساعت پیش </span>
+                        </div>
+                        <span class="material-icons text-primary play-icon">
+                          play_circle
+                        </span>
+                        <img
+                          width="240"
+                          height="160"
+                          src="https://video-images1.varzeshe3.com/covers/2021/07/20/A/fihgc4kk.jpg?w=250"
+                          alt="نظر کارشناسان داوری در گل گهر - آلومینیوم اراک"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span
+                          >نظر کارشناسان داوری در گل گهر - آلومینیوم اراک</span
+                        >
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="slider-item horizontal">
+                      <div class="slider--media ratio-9-16">
+                        <div class="video-datetime">
+                          <span
+                            class="
+                              material-icons
+                              text-body-invert
+                              size-font size-font-p1
+                            "
+                          >
+                            schedule
+                          </span>
+                          <span> 5 ساعت پیش </span>
+                        </div>
+                        <span class="material-icons text-primary play-icon">
+                          play_circle
+                        </span>
+                        <img
+                          width="240"
+                          height="160"
+                          src="https://video-images1.varzeshe3.com/covers/2021/07/20/A/5hmew0nn.jpg?w=250"
+                          alt="وقتی عنایتی از فروش سند حق صعود بی خبر است!"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span>وقتی عنایتی از فروش سند حق صعود بی خبر است!</span>
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="slider-item horizontal">
+                      <div class="slider--media ratio-9-16">
+                        <div class="video-datetime">
+                          <span
+                            class="
+                              material-icons
+                              text-body-invert
+                              size-font size-font-p1
+                            "
+                          >
+                            schedule
+                          </span>
+                          <span> 5 ساعت پیش </span>
+                        </div>
+                        <span class="material-icons text-primary play-icon">
+                          play_circle
+                        </span>
+                        <img
+                          width="240"
+                          height="160"
+                          src="https://video-images1.varzeshe3.com/covers/2021/07/20/A/hz0cpntz.jpg?w=250"
+                          alt="عذرخواهی کرمانشاهی از اعلام پنالتی عجیب"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span>عذرخواهی کرمانشاهی از اعلام پنالتی عجیب</span>
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="slider-item horizontal">
+                      <div class="slider--media ratio-9-16">
+                        <div class="video-datetime">
+                          <span
+                            class="
+                              material-icons
+                              text-body-invert
+                              size-font size-font-p1
+                            "
+                          >
+                            schedule
+                          </span>
+                          <span> 5 ساعت پیش </span>
+                        </div>
+                        <span class="material-icons text-primary play-icon">
+                          play_circle
+                        </span>
+                        <img
+                          width="240"
+                          height="160"
+                          src="https://video-images1.varzeshe3.com/covers/2021/07/20/A/liud0igf.jpg?w=250"
+                          alt="نظر کارشناسان داوری درباره دیدار فولاد - سپاهان"
+                        />
+                      </div>
+                      <div class="slider--caption">
+                        <span
+                          >نظر کارشناسان داوری درباره دیدار فولاد - سپاهان</span
+                        >
+                      </div>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="splide__progress">
+                <div class="splide__progress__bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer-site">
+      <div class="footer-main">
+        <div class="container-xxl">
+          <div class="row justify-content-between">
+            <div class="col-12 col-lg-4 info-col">
+              <img
+                class="footer-logo"
+                src="./assets/images/logo.png"
+                alt="site's logo"
+              />
+              <div class="info-list">
+                <div class="info-list-item">
+                  <div class="info-list-item-icon">
+                    <span class="material-icons text-primary">
+                      location_on
+                    </span>
+                  </div>
+                  <div class="info-list-item-text">
+                    <span
+                      >تهران - بلوار بزرگ - خیابان دوم - میدان اول - نبش خیابان
+                      کناری - کوچه غربی - پلاک 14 - واحد 4</span
+                    >
+                  </div>
+                </div>
+                <div class="info-list-item">
+                  <div class="info-list-item-icon">
+                    <span class="material-icons text-primary"> email </span>
+                  </div>
+                  <div class="info-list-item-text">
+                    <span>info@varzeshtimes.com</span>
+                  </div>
+                </div>
+                <div class="info-list-item">
+                  <div class="info-list-item-icon">
+                    <span class="material-icons text-primary"> phone </span>
+                  </div>
+                  <div class="info-list-item-text">
+                    <span>0912-3456789 - 0912-3456789</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 tag-col">
+              <div class="tag-list-wrap">
+                <div class="tag-list-header">
+                  <p class="h6">آخرین برچسب ها</p>
+                  <div class="vt-divider"><span></span></div>
+                </div>
+                <div class="tag-list-body">
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>استقلال</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>پرسپولیس</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>تراکتورسازی</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>بارسلونا</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>رئال مادرید</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>یوونتوس</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>چلسی</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>بایرن</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>مونیخ</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>کریستیانو رونالدو</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>لیونل مسی</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>نیمار</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                  <div class="tag-list-item">
+                    <span class="material-icons text-primary size-font">
+                      tag
+                    </span>
+                    <span>پاری سن ژرمن</span>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 sign-col">
+              <img
+                src="./assets/images/foot-signs.png"
+                class="img-fluid"
+                alt="signs"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-sub">
+        <div class="container-xxl py-3">
+          <div class="row">
+            <div class="col-12 col-lg-7 footer-sub-copy">
+              <span
+                >تمام حقوق مادی و معنوی این سایت متعلق به ورزش سه می باشد.</span
+              >
+            </div>
+            <div class="col-12 col-lg-5">
+              <ul class="nav footer-sub-socailmedia">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-instagram"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-telegram"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-instagram"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-telegram"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="modalPanel" class="modal-panel">
+      <div class="modal-panel--header">
+        <div class="modal-panel--title">
+          <span></span>
+        </div>
+        <div class="modal-panel--close">
+          <button class="btn vt-btn-tit-light btn-sm" id="mobileMenuCloser">
+            <span class="material-icons"> close </span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-panel--body">
+        <div class="modal-panel--body--inner"></div>
+      </div>
+    </div>
+    <div id="modalOverly" class="modal-overly"></div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/splide.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/lazyload.js"></script>
+  </body>
+</html>
