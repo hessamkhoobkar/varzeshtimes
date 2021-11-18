@@ -7755,6 +7755,10 @@ html[dir=rtl] .news-item .material-icons {
   width: 90%;
   margin-inline-start: 10%;
 }
+.comment-section .comment.is-thirdlayer {
+  width: 80%;
+  margin-inline-start: 20%;
+}
 .comment-section .comment-user-text-link {
   margin-inline-end: 0.5rem;
 }
