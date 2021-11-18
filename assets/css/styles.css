@@ -7790,7 +7790,7 @@ html[dir=rtl] .news-item .material-icons {
 .comment-section .comment-form {
   margin-bottom: 2.5rem;
 }
-.comment-section .comment-form.reply {
+.comment-section .comment-form.reply .is-secondlayer {
   margin-top: 1rem;
   width: 90%;
   margin-inline-start: 10%;

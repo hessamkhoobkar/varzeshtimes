@@ -129,9 +129,11 @@
     margin-bottom: 2.5rem;
 
     &.reply {
-      margin-top: 1rem;
-      width: 90%;
-      margin-inline-start: 10%;
+      .is-secondlayer {
+        margin-top: 1rem;
+        width: 90%;
+        margin-inline-start: 10%;
+      }
 
       &.is-thirdlayer {
         width: 80%;
