@@ -7788,10 +7788,12 @@ html[dir=rtl] .news-item .material-icons {
   color: var(--text-primary);
 }
 .comment-section .comment-form {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
-.comment-section .comment-form.reply .is-secondlayer {
+.comment-section .comment-form.reply {
   margin-top: 1rem;
+}
+.comment-section .comment-form.reply.is-secondlayer {
   width: 90%;
   margin-inline-start: 10%;
 }
