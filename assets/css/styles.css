@@ -7795,6 +7795,10 @@ html[dir=rtl] .news-item .material-icons {
   width: 90%;
   margin-inline-start: 10%;
 }
+.comment-section .comment-form.reply.is-thirdlayer {
+  width: 80%;
+  margin-inline-start: 20%;
+}
 .comment-section .comment-textarea {
   background-color: var(--color-basic-100);
 }
